@@ -59,7 +59,7 @@ export const run = async () => {
         : true
     )
     .forEach((item) => {
-      md += `[${item.full_name}](${core_1.getInput("no-homepage") ? item.html_url : item.homepage || item.html_url})\n`;
+      md += `* [${item.name}](${item.html_url}) - ${item.description}\n\n`;
     });
   if (getInput("suffix")) md += getInput("suffix");
 
