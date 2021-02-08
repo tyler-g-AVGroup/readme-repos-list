@@ -20,7 +20,7 @@ export const run = async () => {
     q,
     per_page,
     sort:
-      (getInput("sort") as "stars" | "forks" | "help-wanted-issues" | "updated" | undefined) ||
+      (getInput("sort") as "stars" | "forks" | "help-wanted-issues" | "updated" | "name" | undefined) ||
       "stars",
     order: (getInput("order") as "asc" | "desc" | undefined) || "desc",
   });
@@ -38,6 +38,7 @@ export const run = async () => {
                 | "forks"
                 | "help-wanted-issues"
                 | "updated"
+                | "name"
                 | undefined) || "stars",
             order: (getInput("order") as "asc" | "desc" | undefined) || "desc",
             page,
@@ -59,7 +60,7 @@ export const run = async () => {
         : true
     )
     .forEach((item) => {
-      md += `* [${item.name}](${item.html_url}) - ${item.description}\n\n`;
+      md += `* [${item.name}](${item.html_url})${item.description ? " - " + item.description : ""}\n\n`;
     });
   if (getInput("suffix")) md += getInput("suffix");
 
