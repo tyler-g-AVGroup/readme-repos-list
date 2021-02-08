@@ -1471,7 +1471,7 @@ const run = async () => {
         ? items.map((i) => i.owner.login).indexOf(item.owner.login) === index
         : true)
         .forEach((item) => {
-        md += `[![${item.full_name}](https://images.weserv.nl/?url=${encodeURIComponent(item.owner.avatar_url.split("//")[1])}&${core_1.getInput("weserv-query") || `h=${size}&w=${size}&fit=cover&mask=circle&maxage=7d`})](${core_1.getInput("no-homepage") ? item.html_url : item.homepage || item.html_url})\n`;
+        md += `[${item.full_name}](${core_1.getInput("no-homepage") ? item.html_url : item.homepage || item.html_url})\n`;
     });
     if (core_1.getInput("suffix"))
         md += core_1.getInput("suffix");
