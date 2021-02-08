@@ -1471,7 +1471,7 @@ const run = async () => {
         ? items.map((i) => i.owner.login).indexOf(item.owner.login) === index
         : true)
         .forEach((item) => {
-        md += `[${item.full_name}](${core_1.getInput("no-homepage") ? item.html_url : item.homepage || item.html_url})\n`;
+        md += `* [${item.name}](${item.html_url}) - ${item.description}\n\n`;
     });
     if (core_1.getInput("suffix"))
         md += core_1.getInput("suffix");
