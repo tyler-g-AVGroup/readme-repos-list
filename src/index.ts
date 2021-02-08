@@ -52,7 +52,7 @@ export const run = async () => {
     "\n<!-- This list is auto-generated using koj-co/readme-repos-list -->\n<!-- Do not edit this list manually, your changes will be overwritten -->\n";
   repos.data.items
     .filter((repo) => repo.full_name !== `${owner}/${repo}`)
-    .sort((a,b) => a.localeCompare(b))
+    .sort((a,b) => (a.name).localeCompare(b.name))
     .filter((item, index, items) =>
       getInput("one-per-owner")
         ? items.map((i) => i.owner.login).indexOf(item.owner.login) === index
