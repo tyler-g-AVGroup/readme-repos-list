@@ -20,7 +20,7 @@ export const run = async () => {
     q,
     per_page,
     sort:
-      (getInput("sort") as "stars" | "forks" | "help-wanted-issues" | "updated" | "name" | undefined) ||
+      (getInput("sort") as "stars" | "forks" | "help-wanted-issues" | "updated" | undefined) ||
       "stars",
     order: (getInput("order") as "asc" | "desc" | undefined) || "desc",
   });
@@ -38,7 +38,6 @@ export const run = async () => {
                 | "forks"
                 | "help-wanted-issues"
                 | "updated"
-                | "name"
                 | undefined) || "stars",
             order: (getInput("order") as "asc" | "desc" | undefined) || "desc",
             page,
