@@ -2,9 +2,9 @@
 
 GitHub Action to list repositories in a README
 
-[![Build CI](https://github.com/koj-co/readme-repos-list/workflows/Build%20CI/badge.svg)](https://github.com/koj-co/readme-repos-list/actions?query=workflow%3A%22Build+CI%22)
-[![Release CI](https://github.com/koj-co/readme-repos-list/workflows/Release%20CI/badge.svg)](https://github.com/koj-co/readme-repos-list/actions?query=workflow%3A%22Release+CI%22)
-[![Node CI](https://github.com/koj-co/readme-repos-list/workflows/Node%20CI/badge.svg)](https://github.com/koj-co/readme-repos-list/actions?query=workflow%3A%22Node+CI%22)
+[![Build CI](https://github.com/DenverCoderOne/readme-repos-list/workflows/Build%20CI/badge.svg)](https://github.com/DenverCoderOne/readme-repos-list/actions?query=workflow%3A%22Build+CI%22)
+[![Release CI](https://github.com/DenverCoderOne/readme-repos-list/workflows/Release%20CI/badge.svg)](https://github.com/DenverCoderOne/readme-repos-list/actions?query=workflow%3A%22Release+CI%22)
+[![Node CI](https://github.com/DenverCoderOne/readme-repos-list/workflows/Node%20CI/badge.svg)](https://github.com/DenverCoderOne/readme-repos-list/actions?query=workflow%3A%22Node+CI%22)
 
 ## ⭐ Usage
 
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run readme-repos-list
-        uses: koj-co/readme-repos-list@master
+        uses: DenverCoderOne/readme-repos-list@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           query: "Octocat in:readme"
@@ -40,7 +40,7 @@ jobs:
 This will create a README like so:
 
 <!-- start: readme-repos-list -->
-<!-- This list is auto-generated using koj-co/readme-repos-list -->
+<!-- This list is auto-generated using DenverCoderOne/readme-repos-list -->
 <!-- Do not edit this list manually, your changes will be overwritten -->
 
 [![fnplus/Algorithms-Hacktoberfest](https://images.weserv.nl/?url=avatars1.githubusercontent.com%2Fu%2F24355438%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://hacktoberfest.digitalocean.com/)
@@ -67,7 +67,7 @@ Your GitHub token or personal access token. If you don't have a bot account, you
 Search query used to find repositories. See [Constructing a search query](https://docs.github.com/en/free-pro-team@latest/rest/reference/search#constructing-a-search-query) on GitHub Docs for more information. An example query can look like:
 
 ```
-Octocat in:readme user:koj-co
+Octocat in:readme user:DenverCoder1
 ```
 
 #### Optional inputs
@@ -91,14 +91,6 @@ Octocat in:readme user:koj-co
 
 ## 📄 License
 
-- Code: [MIT](./LICENSE) © [Koj](https://koj.co)
+- Code: [MIT](./LICENSE) © 2020 [Koj](https://koj.co)
+- 2020-2021 [Jonah Lawrence](https://github.com/DenverCoder1)
 - "GitHub" is a trademark of GitHub, Inc.
-
-<p align="center">
-  <a href="https://koj.co">
-    <img width="44" alt="Koj" src="https://kojcdn.com/v1598284251/website-v2/koj-github-footer_m089ze.svg">
-  </a>
-</p>
-<p align="center">
-  <sub>An open source project by <a href="https://koj.co">Koj</a>. <br> <a href="https://koj.co">Furnish your home in style, for as low as CHF175/month →</a></sub>
-</p>
