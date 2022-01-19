@@ -24,17 +24,18 @@ By default, "readme-repos-list" is the value for `YOUR_STARTER`. Then, add the w
 name: README Repos List
 on:
   schedule:
-    - cron: "0 0 * * 1"
+    # run every day at midnight
+    - cron: "0 0 * * *"
 jobs:
   list:
     runs-on: ubuntu-latest
     steps:
       - name: Run readme-repos-list
-        uses: DenverCoderOne/readme-repos-list@master
+        uses: DenverCoderOne/readme-repos-list@v2.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           query: "Octocat in:readme"
-          max: 10
+          max: 5
 ```
 
 This will create a README like so:
