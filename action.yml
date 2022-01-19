@@ -1,6 +1,6 @@
-name: "README Repos List"
+name: "README Repos List v2"
 description: "GitHub Action to list repositories in a README"
-author: "Koj, Jonah Lawrence"
+author: "2020 Koj, 2020-2021 Jonah Lawrence"
 inputs:
   token:
     required: true
