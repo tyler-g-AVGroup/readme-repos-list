@@ -42,17 +42,25 @@ This will create a README like so:
 <!-- start: readme-repos-list -->
 <!-- This list is auto-generated using readme-repos-list -->
 <!-- Do not edit this list manually, your changes will be overwritten -->
+* [awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - 💅🏻 ⚒ A collection of awesome design systems
 
-[![fnplus/Algorithms-Hacktoberfest](https://images.weserv.nl/?url=avatars1.githubusercontent.com%2Fu%2F24355438%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://hacktoberfest.digitalocean.com/)
-[![NITSkmOS/Algorithms](https://images.weserv.nl/?url=avatars3.githubusercontent.com%2Fu%2F38863995%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://nitskmos.github.io/Algorithms)
-[![fnplus/interview-techdev-guide](https://images.weserv.nl/?url=avatars1.githubusercontent.com%2Fu%2F24355438%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](http://bit.ly/fnplusnow)
-[![faroit/awesome-python-scientific-audio](https://images.weserv.nl/?url=avatars3.githubusercontent.com%2Fu%2F72940%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://github.com/faroit/awesome-python-scientific-audio)
-[![jlord/patchwork](https://images.weserv.nl/?url=avatars3.githubusercontent.com%2Fu%2F1305617%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](http://jlord.github.io/patchwork)
-[![dzharii/awesome-typescript](https://images.weserv.nl/?url=avatars3.githubusercontent.com%2Fu%2F36020%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://github.com/dzharii/awesome-typescript)
-[![KotlinBy/awesome-kotlin](https://images.weserv.nl/?url=avatars0.githubusercontent.com%2Fu%2F17604656%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://kotlin.link/)
-[![alexpate/awesome-design-systems](https://images.weserv.nl/?url=avatars0.githubusercontent.com%2Fu%2F3749759%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://git.io/design-systems)
-[![drone/drone](https://images.weserv.nl/?url=avatars1.githubusercontent.com%2Fu%2F2181346%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://drone.io)
-[![521xueweihan/HelloGitHub](https://images.weserv.nl/?url=avatars3.githubusercontent.com%2Fu%2F8255800%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://hellogithub.com/)
+* [awesome-kotlin](https://github.com/KotlinBy/awesome-kotlin) - A curated list of awesome Kotlin related stuff Inspired by awesome-java. 
+
+* [awesome-python-scientific-audio](https://github.com/faroit/awesome-python-scientific-audio) -  Curated list of python software and packages related to scientific research in audio
+
+* [awesome-typescript](https://github.com/dzharii/awesome-typescript) - A collection of awesome TypeScript resources for client-side and server-side development. Write your awesome JavaScript in TypeScript
+
+* [Bombers](https://github.com/bhattsameer/Bombers) - SMS/Email/Whatsapp/Twitter/Instagram bombers Collection :bomb::bomb::bomb: :boom: Also added collection of some Fake SMS utilities which helps in skip phone number based SMS verification by using a temporary phone number that acts like a proxy.
+
+* [docker-development-youtube-series](https://github.com/marcel-dempers/docker-development-youtube-series)
+
+* [fucking-awesome-python](https://github.com/trananhkma/fucking-awesome-python) - awesome-python with :octocat: :star: and :fork_and_knife:
+
+* [HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
+
+* [interview-techdev-guide](https://github.com/fnplus/interview-techdev-guide) - This repository contains curated technical interview questions by fn+geeks community
+
+* [patchwork](https://github.com/jlord/patchwork) - All the Git-it Workshop completers! 
 
 <!-- end: readme-repos-list -->
 
