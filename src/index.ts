@@ -49,7 +49,7 @@ export const run = async () => {
 
   let md =
     getInput("prefix") ||
-    "\n<!-- This list is auto-generated using koj-co/readme-repos-list -->\n<!-- Do not edit this list manually, your changes will be overwritten -->\n";
+    "\n<!-- This list is auto-generated using readme-repos-list -->\n<!-- Do not edit this list manually, your changes will be overwritten -->\n";
   repos.data.items
     .filter((repo) => repo.full_name !== `${owner}/${repo}`)
     .sort((a,b) => (a.name).localeCompare(b.name))

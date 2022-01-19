@@ -1,6 +1,6 @@
 name: "README Repos List"
 description: "GitHub Action to list repositories in a README"
-author: "Koj <https://github.com/koj.co>"
+author: "Koj, Jonah Lawrence"
 inputs:
   token:
     required: true
