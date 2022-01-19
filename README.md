@@ -40,7 +40,7 @@ jobs:
 This will create a README like so:
 
 <!-- start: readme-repos-list -->
-<!-- This list is auto-generated using DenverCoderOne/readme-repos-list -->
+<!-- This list is auto-generated using readme-repos-list -->
 <!-- Do not edit this list manually, your changes will be overwritten -->
 
 [![fnplus/Algorithms-Hacktoberfest](https://images.weserv.nl/?url=avatars1.githubusercontent.com%2Fu%2F24355438%3Fv%3D4&h=50&w=50&fit=cover&mask=circle&maxage=7d)](https://hacktoberfest.digitalocean.com/)
