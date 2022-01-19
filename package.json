@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koj-co/readme-repos-list.git"
+    "url": "git+https://github.com/DenverCoderOne/readme-repos-list.git"
   },
   "keywords": [
     "github",
@@ -23,9 +23,9 @@
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koj-co/readme-repos-list/issues"
+    "url": "https://github.com/DenverCoderOne/readme-repos-list/issues"
   },
-  "homepage": "https://github.com/koj-co/readme-repos-list#readme",
+  "homepage": "https://github.com/DenverCoderOne/readme-repos-list#readme",
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
     "@types/jest": "^26.0.14",
