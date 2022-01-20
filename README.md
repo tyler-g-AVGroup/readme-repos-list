@@ -3,7 +3,6 @@
 GitHub Action to list repositories in a README
 
 [![Build CI](https://github.com/DenverCoderOne/readme-repos-list/workflows/Build%20CI/badge.svg)](https://github.com/DenverCoderOne/readme-repos-list/actions?query=workflow%3A%22Build+CI%22)
-[![Release CI](https://github.com/DenverCoderOne/readme-repos-list/workflows/Release%20CI/badge.svg)](https://github.com/DenverCoderOne/readme-repos-list/actions?query=workflow%3A%22Release+CI%22)
 [![Node CI](https://github.com/DenverCoderOne/readme-repos-list/workflows/Node%20CI/badge.svg)](https://github.com/DenverCoderOne/readme-repos-list/actions?query=workflow%3A%22Node+CI%22)
 
 ## ⭐ Usage
@@ -77,8 +76,6 @@ Octocat in:readme user:DenverCoder1
 | `repo`           | Name of repository to commit to        |
 | `max`            | Maximum number of repositories to list |
 | `prefix`         | Content to add before the list         |
-| `weserv-query`   | Image manipulation query parameters    |
-| `no-homepage`    | Link to repository, not homepage       |
 | `suffix`         | Content to add at the end of the list  |
 | `path`           | Path to file to update with content    |
 | `start`          | Starting comment to look for           |
@@ -91,5 +88,5 @@ Octocat in:readme user:DenverCoder1
 ## 📄 License
 
 - Code: [MIT](./LICENSE) © 2020 [Koj](https://koj.co)
-- 2020-2021 [Jonah Lawrence](https://github.com/DenverCoder1)
+- 2020-2022 [Jonah Lawrence](https://github.com/DenverCoder1)
 - "GitHub" is a trademark of GitHub, Inc.
