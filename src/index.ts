@@ -52,7 +52,7 @@ export const run = async () => {
     "\n<!-- This list is auto-generated using readme-repos-list -->\n<!-- Do not edit this list manually, your changes will be overwritten -->\n";
   repos.data.items
     .filter((repo) => repo.full_name !== `${owner}/${repo}`)
-    .sort((a,b) => (a.updated_at).localeCompare(b.updated_at))
+    .sort((a,b) => (a.properties.updated_at).localeCompare(b.properties.updated_at))
     .filter((item, index, items) =>
       getInput("one-per-owner")
         ? items.map((i) => i.owner.login).indexOf(item.owner.login) === index
